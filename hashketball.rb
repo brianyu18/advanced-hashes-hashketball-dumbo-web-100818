@@ -165,5 +165,5 @@ def find_the_player(name)
 end
 
 def player_biggest_shoe_size
-  p "biggest shoe", players.max_by{|player, stats| stats.fetch(:shoe)}[1]
+  p "biggest shoe", players.max_by{|player, stats| stats.fetch(:shoe)}[0]
 end
